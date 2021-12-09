@@ -1,5 +1,7 @@
-function listRepos() {
-  let command = 'gh repo list';
+const { exec } = require('child_process');
+
+function listRepos(githubHandle) {
+  let command = `gh repo list ${githubHandle}`;
 	exec(command, (error, stdout, stderr) => {
 		if (error) {
 			console.log(`error: ${error.message}`);
