@@ -28,7 +28,7 @@ https://github.com/cli/cli#installation
 
 ## Usage
 
-1. To create a new repository for the user logged in with access token:
+1. To create a new private repository for the user logged in with access token:
 ```
 pretty-please createRepo <Repo Name>
 ```

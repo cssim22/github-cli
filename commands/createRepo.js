@@ -11,7 +11,7 @@ function createRepo(newRepoName) {
 			console.log(`stderr: ${stderr}`);
 			return;
 		}
-		console.log(`stdout: ${stdout}`);
+		console.log(`new repo '${newRepoName}' created successfully`);
 	});
 }
 
