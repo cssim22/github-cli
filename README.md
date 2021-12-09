@@ -8,8 +8,7 @@ git clone https://github.com/cssim22/github-cli.git
 ```
 npm install 
 ```
-3. INSTALL GITHUB CLI
-instructions here: 
+3. INSTALL GITHUB CLI by following instructions at this link: 
 ```
 https://github.com/cli/cli#installation
 ```
