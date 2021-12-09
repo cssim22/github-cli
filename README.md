@@ -1,7 +1,7 @@
 ## Installation
 
 1. CLONE THE REPOSITORY:
-git clone https://github.com/cssim22/gh-cli.git
+git clone https://github.com/cssim22/github-cli.git
 
 2. INSTALL THE SCRIPT (globally if you would like to run commands anywhere):
 npm install -g
