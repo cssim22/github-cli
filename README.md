@@ -20,7 +20,7 @@ https://github.com/cli/cli#installation
 		 - On the left sidebar go to developer settings
 		 - On left sidebar, click personal access tokens
 		 - Generate token and select expiration date and scopes (you only need the repo scope checkbox)
-	 - On command line enter "gh auth login" and follow the prompt
+	 - On command line enter <gh auth login> and follow the prompt
 		 - Select HTTPS for protocol
 		 - Asked if you would like to authenticate to Git with your GitHub credentials, enter Y.
 		 - Paste in your personal access token and then you will be signed in for however long you selected your token to last. This is needed to create a repo.
@@ -31,6 +31,7 @@ https://github.com/cli/cli#installation
 ```
 pretty-please createRepo <Repo Name>
 ```
+Example:
 ```
 pretty-please createRepo new-repo 
 ```
@@ -40,6 +41,7 @@ pretty-please createRepo new-repo
 ```
 pretty-please listRepos <GithubHandle>
 ```
+Example:
 ```
 pretty-please listRepos cssim22
 ```
