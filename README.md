@@ -4,9 +4,9 @@
 ```
 git clone https://github.com/cssim22/gh-cli.git
 ```
-2. INSTALL THE SCRIPT (globally if you would like to run commands anywhere):
+2. INSTALL THE DEPENDENCIES (globally if you want to use anywhere):
 ```
-npm install -g
+npm install 
 ```
 3. INSTALL GITHUB CLI
 instructions here: 
