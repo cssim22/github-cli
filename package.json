@@ -1,0 +1,19 @@
+{
+  "name": "github-cli",
+  "version": "1.0.0",
+  "description": "A CLI for github repos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cssim22/github-cli.git"
+  },
+  "author": "Cameron Simmons",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cssim22/github-cli/issues"
+  },
+  "homepage": "https://github.com/cssim22/github-cli#readme"
+}
