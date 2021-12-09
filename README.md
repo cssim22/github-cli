@@ -2,7 +2,7 @@
 
 1. CLONE THE REPOSITORY:
 ```
-git clone https://github.com/cssim22/gh-cli.git
+git clone https://github.com/cssim22/github-cli.git
 ```
 2. INSTALL THE DEPENDENCIES (globally if you want to use anywhere):
 ```
