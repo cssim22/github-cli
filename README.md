@@ -1,7 +1,7 @@
 ## Installation
 
 1. CLONE THE REPOSITORY:
-git clone https://github.com/cssim22/github-cli.git
+git clone https://github.com/cssim22/gh-cli.git
 
 2. INSTALL THE SCRIPT (globally if you would like to run commands anywhere):
 npm install -g
@@ -24,37 +24,15 @@ instructions here: https://github.com/cli/cli#installation
 ## Usage
 
 1. To create a new repository for the user logged in with access token:
-pretty-please createRepo <Repo Name> [flags]
+pretty-please createRepo <Repo Name> [flag]
 ```
-pretty-please createRepo "BestRepoEver" --public
+pretty-please createRepo "BestRepoEver" -u
 ```
-where `--public` will create apublic repository and `--private` will create a private repository
+
 
 2. To list repositories for the user logged in with access token:
-pretty-please listRepos <>
-
-Options:
-gh repo list [<owner>] [flags]
-
---archived
-Show only archived repositories
---fork
-Show only forks
--q, --jq <expression>
-Filter JSON output using a jq expression
---json <fields>
-Output JSON with the specified fields
--l, --language <string>
-Filter by primary coding language
--L, --limit <int>
-Maximum number of repositories to list
---no-archived
-Omit archived repositories
---private
-Show only private repositories
-
-Use quotations when using spaces in the text otherwise quotations are not necessary.
-
-
-
+pretty-please listRepos [flag]
+```
+pretty-please listRepos -u
+```
 

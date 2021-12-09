@@ -15,5 +15,13 @@
   "bugs": {
     "url": "https://github.com/cssim22/github-cli/issues"
   },
-  "homepage": "https://github.com/cssim22/github-cli#readme"
+  "homepage": "https://github.com/cssim22/github-cli#readme",
+  "dependencies": {
+      "child_process": "^1.0.2",
+      "commander": "^8.2.0",
+  },
+  "bin": {
+    "pretty-please": "index.js"
+  }
 }
+

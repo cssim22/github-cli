@@ -1,9 +1,8 @@
-const conf = new (require('conf'))();
-const chalk = require('chalk');
 const { exec } = require('child_process');
 
 function createRepo(newRepoName) {
-	exec(`gh repo create ${newRepoName} --private`, (error, stdout, stderr) => {
+  let command = `gh repo create ${newRepoName} --private`;
+	exec(command, (error, stdout, stderr) => {
 		if (error) {
 			console.log(`error: ${error.message}`);
 			return;

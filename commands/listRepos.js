@@ -1,9 +1,6 @@
-const { exec } = require('child_process');
-const conf = new (require('conf'))();
-const chalk = require('chalk');
-
-function listRepos(githubHandle, flags = '-L 10') {
-	exec(`gh repo list ${githubHandle} ${flags}`, (error, stdout, stderr) => {
+function listRepos() {
+  let command = 'gh repo list';
+	exec(command, (error, stdout, stderr) => {
 		if (error) {
 			console.log(`error: ${error.message}`);
 			return;
