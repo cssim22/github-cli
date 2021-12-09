@@ -33,7 +33,7 @@ https://github.com/cli/cli#installation
 pretty-please createRepo <Repo Name>
 ```
 ```
-pretty-please createRepo "BestRepoEver" 
+pretty-please createRepo new-repo 
 ```
 
 
